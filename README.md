@@ -11,7 +11,7 @@ Tiap courses memiliki level yang berbeda-beda. Semakin tinggi levelnya, maka sem
 Nah, berikut adalah daftar courses yang tersedia di repositori ini:
 
 - Level 0 - [ON DEVELOPMENT] Algoritma menggunakan Python
-- Level 1 - [TBA] Intermediate Python - Function, Class, I/O
+- Level 1 - [TBA] Intermediate Python - Version Manager, Function, Class, I/O
 - Level 1 - [TBA] Relational Database & SQL
 - Level 2 - [TBA] Data Analisis menggunakan Python
 
