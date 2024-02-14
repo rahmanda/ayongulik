@@ -54,7 +54,7 @@ Cara yang paling sederhana untuk melakukan instalasi Python adalah dengan instal
 Untuk mengetes apakah instalasi program Python kalian sukses, ikuti langkah-langkah berikut:
 
 1. Buat file baru dengan nama `hello-world.py` dan copas kode Python `Hello, world!` dari contoh sebelumnya.
-2. Buka aplikasi terminal pada komputer kalian. Ganti direktori ke lokasi dimana kalian menyimpan file `hello-world.py`.
+2. Buka aplikasi terminal/command prompt pada komputer kalian. Ganti direktori ke lokasi dimana kalian menyimpan file `hello-world.py`.
 3. Jalan perintah `python hello-world.py`. Apabila tidak muncul error dan tampil teks `Hello, world!` pada terminal, maka instalasi Python kalian telah berhasil!
 
 >[!NOTE] 
