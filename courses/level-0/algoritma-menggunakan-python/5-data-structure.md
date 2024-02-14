@@ -135,4 +135,11 @@ print(headline_title[0]) # output: 'T'
 print(headline_title[0:6]) # output: 'Taylor'
 ```
 
+Namun berbeda dengan `list`, apabila kita mencoba mengganti nilai item dengan menggunakan index, program Python akan mengeluarkan pesan error.
+
+```python
+my_name = 'John Doe'
+my_name[0] = 'B' # TypeError: 'str' object does not support item assignment
+```
+
 ## Dictionary
