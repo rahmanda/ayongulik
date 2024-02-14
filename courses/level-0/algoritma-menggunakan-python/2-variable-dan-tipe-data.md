@@ -148,7 +148,7 @@ print(my_name) # output: 'John Doe'
 ```
 
 > [!TIP]
-> Q: Bagaimana cara menentukan apakah pakai double quote atau pakai single quote untuk variable string?
+> Q: Bagaimana cara menentukan apakah pakai double quote atau pakai single quote untuk variable string?  
 > A: Sebenarnya tidak ada aturan khusus. Yang penting, pakai salah satu style dan gunakan style tersebut secara konsisten untuk semua kode kalian.
 
 Operator boolean seperti `==` dan `!=` juga bisa dilakukan dengan tipe data `string` seperti pada contoh di bawah ini.
