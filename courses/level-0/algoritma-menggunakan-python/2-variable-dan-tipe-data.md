@@ -6,7 +6,7 @@ Variable adalah sebuah simbol/referensi/nama yang kita berikan untuk sebuah nila
 total_purchase = 1000
 ```
 
-Contoh di atas menunjukkan bahwa `total_purchase` adalah nama variable, dan `1000` merupakan value dari variable `total_purchase`. Dengan mendefinisikan variable, kita dapat menggunakan kembali nilai `1000` tersebut dengan melakukan referensi ke nama variablenya.
+Contoh di atas menunjukkan bahwa `total_purchase` adalah nama variable, dan `1000` merupakan value dari variable `total_purchase`. Dengan mendefinisikan variable, kita dapat menggunakan kembali nilai tersebut dengan melakukan referensi ke nama variablenya.
 
 ```python
 total_purchase = 1000
@@ -36,7 +36,7 @@ Mari kita bahas satu persatu tipe data ini.
 
 ### Number
 
-Tipe data `number` ini sudah kita temui pada contoh pembuatan variable `total_purchase`. Karena nilainya berupa angka, kita bisa melakukan operasi matematika pada variable dengan tipe data ini. Perhatikan contoh berikut yang menggunakan operasi matematika untuk menghitung nilai setelah diskon.
+Tipe data `number` ini sudah kita temui pada contoh pembuatan variable `total_purchase`. Karena nilainya berupa angka, kita bisa melakukan operasi matematika pada variable dengan tipe data ini. Perhatikan contoh berikut yang memperlihatkan penggunaan operasi matematika untuk menghitung nilai setelah diskon:
 
 ```python
 base_price = 50000
@@ -147,6 +147,10 @@ my_name = "John Doe"
 print(my_name) # output: 'John Doe'
 ```
 
+> [!TIP]
+> Q: Bagaimana cara menentukan apakah pakai double quote atau pakai single quote untuk variable string?
+> A: Sebenarnya tidak ada aturan khusus. Yang penting, pakai salah satu style dan gunakan style tersebut secara konsisten untuk semua kode kalian.
+
 Operator boolean seperti `==` dan `!=` juga bisa dilakukan dengan tipe data `string` seperti pada contoh di bawah ini.
 
 ```python
@@ -203,7 +207,33 @@ print(
 ) # output: 'Hi, my name is John Doe and I am 21 years old'
 ```
 
+Semua contoh variable `string` yang diberikan sampai tahap ini belum ada yang mengandung single quote (`'`) atau double quote (`"`) dalam value-nya. Hal ini disebabkan ada beberapa trik yang perlu digunakan untuk menghindari sintaks error.
+
+```python
+# Contoh di bawah ini akan memunculkan error 'SyntaxError: invalid syntax'
+caption_text = 'Indonesian's rain forest in Kalimantan are rapidly decreasing due to illegal clearing'
+```
+
+Ada beberapa trik yang bisa dilakukan untuk menghindari error tersebut. Salah satunya adalah dengan mengapit `string` yang mengandung single quote dengan double quote.
+
+```python
+caption_text = "Indonesian's rain forest in Kalimantan are rapidly decreasing due to illegal clearing"
+```
+
+Untuk `string` yang mengandung double quote, value-nya perlu diapit dengan single quote.
+
+```python
+headline_title = 'Taylor swift will release her new album "Midnight" next year'
+```
+
+Selain mengkombinasikan antara single quote dan double quote, cara lain yang dapat dilakukan adalah dengan meng-escaped karakter tersebut di dalam string dengan menggunakan tanda `backslash`.
+
+```python
+caption_text = 'Indonesian\'s rain forest in Kalimantan are rapidly decreasing due to illegal clearing'
+headline_title =  "Taylor swift will release her new album \"Midnight\" next year"
+```
+
 > [!NOTE]
-> Terminologi dalam bab ini (untuk pencarian Google):
+> Terminologi dalam bab ini (untuk memudahkan pencarian Google):
 > - String concatenation: penggabungan string  
 > - String formatting/interpolation: pembentukan/konstruksi string
