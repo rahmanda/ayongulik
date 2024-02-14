@@ -2,7 +2,7 @@
 
 Conditionals adalah konsep dari programming yang memberikan perintah kepada komputer untuk melakukan keputusan atau menjalankan suatu proses berdasarkan hasil dari logika perbandingan/boolean. Konsep ini dapat divisualisasikan ke dalam bentuk diagram flowchart. Diagram berikut mengilustrasikan contoh kasus conditional untuk memutuskan apakah seseorang akan makan atau tidak.
 
-```mermaidjs
+```mermaid
 flowchart TD
     A[Start] --> B{Am I hungry?}
     B -- Yes --> C{Is food exist?}
