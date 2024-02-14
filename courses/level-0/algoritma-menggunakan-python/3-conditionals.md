@@ -14,9 +14,11 @@ flowchart TD
     H --> D
     G -- No --> I[Can't buy food]
     I --> E
+    E --> J[Done]
+    D --> J
 ```
 
-Ilustrasi conditional pada contoh dapat diimplementasikan kedalam kode dengan memanfaatkan sintaks Python. Yuk kita ikuti pembahasan lebih detailnya!
+Ilustrasi conditional pada contoh sebelumnya dapat diimplementasikan kedalam kode dengan memanfaatkan sintaks Python. Yuk kita ikuti pembahasan lebih detailnya!
 
 ## If dan else if 
 
