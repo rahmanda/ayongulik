@@ -50,6 +50,17 @@ else:
 
 Apabila kode pada contoh 1.a dijalankan, komputer hanya akan melakukan operasi pengurangan pada variable `money_on_wallet` dan menjalankan fungsi `print` yang pertama karena `money_on_wallet >= price_of_bread` akan menghasilkan nilai `True`, sedangkan fungsi `print` yang kedua akan di-skip. 
 
+```mermaid
+flowchart TD
+    A[Start] --> B{Have enough money to buy the bread?}
+    B -- Yes --> C[Pay for the bread]
+    C --> D[Print 'I bought the bread...']
+    C --> E[Done]
+    B -- No --> F[Print 'I coudn\'t buy the bread ...']
+    F --> E
+```
+*Ilustrasi flowchart untuk contoh 1.a*
+
 Apa yang akan terjadi jika kita mengganti nilai `price_of_bread` menjadi `101`? Kondisi `money_on_wallet >= price_of_bread` akan menghasilkan nilai `False` sehingga hanya fungsi `print` yang kedua yang akan dieksekusi.
 
 Perhatikan kembali contoh selanjutnya:
@@ -72,6 +83,16 @@ print(f'I will buy the jam as well.')
 ```
 
 Apabila kode baru pada contoh 1.b dijalankan, komputer hanya akan melakukan operasi pengurangan, menjalankan fungsi `print` yang pertama *dan* menjalankan fungsi `print` yang kedua. Hal ini disebabkan fungsi `print` yang kedua sudah tidak lagi di dalam blok kode `else`. 
+
+```mermaid
+flowchart TD
+    A[Start] --> B{Have enough money to buy the bread?}
+    B -- Yes --> C[Pay for the bread]
+    C --> D[Print 'I bought the bread...']
+    C --> E[Print 'I will buy the jam as well.']
+    E --> F[Done]
+```
+*Ilustrasi flowchart untuk contoh 1.b*
 
 Apa yang akan terjadi jika kita mengganti nilai `price_of_bread` menjadi `101`? Nilai `money_on_wallet >= price_of_bread` akan berubah menjadi `False`, namun perubahan ini tidak memengaruhi eksekusi dari fungsi `print` yang kedua (tetap dilakukan pemanggilan) karena baris tersebut tidak ada di dalam blok kode `if` maupun `else`.
 
@@ -103,7 +124,22 @@ else:
 # 'I will give the changes to the street singer.'
 ```
 
-===
+```mermaid
+flowchart TD
+    A[Start] --> B{Have enough money to buy the bread?}
+    B -- Yes --> C[Pay for the bread]
+    C --> D[Print 'I bought the bread...']
+    D --> E{Have money left?}
+    E -- Yes --> F[Print 'I will give the changes...']
+    E -- No --> G[Print 'I have no money left.']
+    F --> H[Done]
+    G --> H[Done]
+    B -- No --> I[Print 'I coudn\'t buy the bread ...']
+    I --> H
+```
+*Ilustrasi flowchart untuk contoh 1.b*
+
+---
 
 Kita dapat menggunakan sintaks `elif` (else if) untuk membuat skenario yang menggabungkan beberapa kondisi sekaligus. Sintaks dasarnya adalah seperti berikut:
 
@@ -119,7 +155,7 @@ else:
 ```
 
 > [!TIP]
-> Sebagai latihan, coba terjemahkan skenario pada diagram flowchart ke dalam kode Python. Kira-kira kodenya seperti apa ya?
+> Sebagai latihan, coba terjemahkan skenario pada contoh diagram flowchart yang paling pertama ke dalam kode Python. Kira-kira kodenya seperti apa ya?
 
 ## Switch
 
