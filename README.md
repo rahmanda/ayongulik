@@ -1,6 +1,6 @@
 # Ayo Ngulik!
 
-Repositori ini berisi beberapa short courses berbahasa Indonesia yang membahas seputar pengenalan pemrograman. Short courses ini ditujukan kepada pemula yang belum punya pengalaman di bidang teknologi informasi/IT.
+Repositori ini berisi beberapa courses berbahasa Indonesia yang membahas seputar pengenalan pemrograman. Courses ini ditujukan kepada pemula yang belum punya pengetahuan di bidang teknologi informasi/IT.
 
 Materi-materi yang ada di sini sengaja dibuat sesingkat dan sepadat mungkin agar teman-teman dapat memahami dasar materinya dengan lebih mudah dan dapat lebih cepat hands-on. Karena materinya terbatas, setelah belajar dari courses yang ada disini teman-teman diharapkan tetap *ngulik* terus ya!
 
