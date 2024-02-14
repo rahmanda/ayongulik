@@ -240,14 +240,14 @@ caption_text = "Indonesian's rain forest in Kalimantan are rapidly decreasing du
 Bagi nilai `string` yang mengandung double quote, value-nya perlu diapit dengan single quote.
 
 ```python
-headline_title = 'Taylor swift will release her new album "Midnight" next year'
+headline_title = 'Taylor Swift will release her new album "Midnight" next year'
 ```
 
 Selain mengkombinasikan antara single quote dan double quote, solusi lain yang dapat diterapkan adalah dengan meng-escaped karakter tersebut di dalam string dengan menggunakan tanda backslash (`\`).
 
 ```python
 caption_text = 'Indonesian\'s rain forest in Kalimantan are rapidly decreasing due to illegal clearing'
-headline_title =  "Taylor swift will release her new album \"Midnight\" next year"
+headline_title =  "Taylor Swift will release her new album \"Midnight\" next year"
 ```
 
 > [!NOTE]
