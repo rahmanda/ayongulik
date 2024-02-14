@@ -36,7 +36,7 @@ Mari kita bahas satu persatu tipe data ini.
 
 ### Number
 
-Tipe data `number` ini sudah kita temui pada contoh pembuatan variable `total_purchase`. Karena nilainya berupa angka, kita bisa melakukan operasi matematika pada variable dengan tipe data ini. Perhatikan contoh berikut yang memperlihatkan penggunaan operasi matematika untuk menghitung nilai setelah diskon:
+Tipe data `number` ini sudah kita temui pada contoh pembuatan variable `total_purchase`. Karena nilainya berupa angka, kita bisa melakukan operasi matematika pada variable tersebut. Perhatikan contoh berikut yang memperlihatkan penggunaan operasi matematika:
 
 ```python
 base_price = 50000
@@ -59,7 +59,13 @@ billed_price = total_after_extra_discount + total_after_extra_discount * fee_rat
 print(billed_price) # output: 44100
 ```
 
-Lengkapnya, operasi matematika yang bisa dilakukan adalah penambahan (`+`), pengurangan (`-`), perkalian (`*`), pembagian (`/`), dan modulus/sisa hasil bagi (`%`).
+Lengkapnya, operasi matematika yang bisa dilakukan adalah:
+
+- penambahan (`+`),
+- pengurangan (`-`),
+- perkalian (`*`),
+- pembagian (`/`), dan
+- modulus/sisa hasil bagi (`%`).
 
 ```python
 my_favorite_number = 100
@@ -87,7 +93,16 @@ print(math.log(2)) # output: 0.6931471805599453
 
 ### Boolean
 
-Tipe data `boolean` hanya memiliki nilai `True` atau `False`. Biasanya, tipe data `boolean` dipakai untuk melakukan logika perbandingan. Logika perbandingan ini memiliki operator seperti sama dengan (`==`), tidak sama dengan (`!=`), lebih besar (`>`), lebih besar atau sama dengan (`>=`), lebih kecil (`<`), dan lebih kecil atau sama dengan (`<=`). Berikut ini adalah contoh penggunaan tipe data `boolean`.
+Tipe data `boolean` hanya memiliki nilai `True` atau `False`. Biasanya, tipe data `boolean` dipakai untuk melakukan logika perbandingan. Logika perbandingan ini memiliki beberapa operator:
+
+- sama dengan (`==`),
+- tidak sama dengan (`!=`),
+- lebih besar (`>`),
+- lebih besar atau sama dengan (`>=`),
+- lebih kecil (`<`), dan
+- lebih kecil atau sama dengan (`<=`). 
+
+Berikut ini adalah contoh penggunaan tipe data `boolean`.
 
 ```python
 total_purchase = 1000
@@ -161,7 +176,7 @@ print(my_name == 'John Lennon') # output: False
 print(my_name != 'John Lennon') # output: True
 ```
 
-Dua atau lebih variable `string` dapat digabung dengan menggunakan operator `+`.
+Dua atau lebih variable `string` dapat digabungkan dengan menggunakan operator `+`.
 
 ```python
 first_name = 'John'
@@ -171,7 +186,7 @@ full_name = first_name + ' ' + last_name
 print(full_name) # output: 'John Doe'
 ```
 
-Berbeda dengan tipe data `number` and `boolean`, tipe data `string` dapat menggunakan fungsi `len` untuk mendapatkan panjang karakter.
+Berbeda dengan tipe data `number` and `boolean`, tipe data `string` dapat menggunakan fungsi `len` untuk mendapatkan informasi panjang karakter.
 
 ```python
 first_name = 'John'
@@ -214,19 +229,19 @@ Semua contoh variable `string` yang diberikan sampai tahap ini belum ada yang me
 caption_text = 'Indonesian's rain forest in Kalimantan are rapidly decreasing due to illegal clearing'
 ```
 
-Ada beberapa trik yang bisa dilakukan untuk menghindari error tersebut. Salah satunya adalah dengan mengapit `string` yang mengandung single quote dengan double quote.
+Untuk menghindari error tersebut, salah satu cara yang dapat dilakukan adalah dengan mengapit `string` yang mengandung single quote dengan double quote.
 
 ```python
 caption_text = "Indonesian's rain forest in Kalimantan are rapidly decreasing due to illegal clearing"
 ```
 
-Untuk `string` yang mengandung double quote, value-nya perlu diapit dengan single quote.
+Bagi nilai `string` yang mengandung double quote, value-nya perlu diapit dengan single quote.
 
 ```python
 headline_title = 'Taylor swift will release her new album "Midnight" next year'
 ```
 
-Selain mengkombinasikan antara single quote dan double quote, cara lain yang dapat dilakukan adalah dengan meng-escaped karakter tersebut di dalam string dengan menggunakan tanda `backslash`.
+Selain mengkombinasikan antara single quote dan double quote, solusi lain yang dapat diterapkan adalah dengan meng-escaped karakter tersebut di dalam string dengan menggunakan tanda backslash (`\`).
 
 ```python
 caption_text = 'Indonesian\'s rain forest in Kalimantan are rapidly decreasing due to illegal clearing'
