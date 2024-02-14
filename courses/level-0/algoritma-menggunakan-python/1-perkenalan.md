@@ -1,6 +1,6 @@
 # Perkenalan
 
-Selamat datang pada short course 'Algoritma menggunakan Python' ini! Setelah menyelesaikan course ini, kalian diharapkan sudah memahami dasar-dasar algoritma dan bisa melakukan pemrograman dasar menggunakan Python secara mandiri. Tanpa panjang lebar, yuk langsung ke bagian selanjutnya!
+Selamat datang pada course 'Algoritma menggunakan Python' ini! Setelah menyelesaikan course ini, kalian diharapkan sudah memahami dasar-dasar algoritma dan bisa melakukan pemrograman dasar menggunakan Python secara mandiri. Tanpa panjang lebar, yuk langsung ke bagian selanjutnya!
 
 ## Apa itu algoritma?
 
