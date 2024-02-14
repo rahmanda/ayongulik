@@ -89,8 +89,10 @@ Apabila kode baru pada contoh 1.b dijalankan, komputer hanya akan melakukan oper
 flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
     B -- Yes --> C[Pay for the bread]
+    B -- No --> G[Do nothing]
     C --> D[Print 'I bought the bread...']
-    D --> E[Print 'I will buy the jam as well.']
+    A --> E[Print 'I will buy the jam as well.']
+    G --> E
     E --> F[Done]
 ```
 *Ilustrasi flowchart untuk contoh 1.b*
