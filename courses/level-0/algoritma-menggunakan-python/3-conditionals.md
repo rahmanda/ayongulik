@@ -91,7 +91,7 @@ flowchart TD
     B -- Yes --> C[Pay for the bread]
     B -- No --> G[Do nothing]
     C --> D[Print 'I bought the bread...']
-    A --> E[Print 'I will buy the jam as well.']
+    D --> E[Print 'I will buy the jam as well.']
     G --> E
     E --> F[Done]
 ```
