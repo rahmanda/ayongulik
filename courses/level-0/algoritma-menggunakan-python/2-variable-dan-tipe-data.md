@@ -151,6 +151,8 @@ will_eat = are_you_hungry or can_buy_food
 print(will_eat) # output: True
 ```
 
+Konsep `boolean` dan logika perbandingan ini akan kita temui lagi pada bab 3 'Conditionals'.
+
 ### String
 
 Tipe data `string` menyimpan data kumpulan karakter (alfanumerik dan simbol). Berbeda dengan tipe data `number` dan `boolean`, penulisan data `string` perlu diapit menggunakan tanda petik (single quote `'` dan double quote `"`).
