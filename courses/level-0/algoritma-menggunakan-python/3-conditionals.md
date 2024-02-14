@@ -56,7 +56,7 @@ flowchart TD
     B -- Yes --> C[Pay for the bread]
     C --> D[Print 'I bought the bread...']
     C --> E[Done]
-    B -- No --> F[Print "I coudn't buy the bread ..."]
+    B -- No --> F[Print 'I coudn't buy the bread ...']
     F --> E
     D --> E
 ```
@@ -90,8 +90,7 @@ flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
     B -- Yes --> C[Pay for the bread]
     C --> D[Print 'I bought the bread...']
-    A --> E[Print 'I will buy the jam as well.']
-    D --> E
+    D --> E[Print 'I will buy the jam as well.']
     E --> F[Done]
 ```
 *Ilustrasi flowchart untuk contoh 1.b*
@@ -136,7 +135,7 @@ flowchart TD
     E -- No --> G[Print 'I have no money left.']
     F --> H[Done]
     G --> H[Done]
-    B -- No --> I[Print "I coudn't buy the bread ..."]
+    B -- No --> I[Print 'I couldn't buy the bread ...']
     I --> H
 ```
 *Ilustrasi flowchart untuk contoh 1.b*
