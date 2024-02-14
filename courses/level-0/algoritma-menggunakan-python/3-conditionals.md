@@ -1,6 +1,6 @@
 # Conditionals
 
-Conditionals adalah konsep programming yang memberikan perintah kepada komputer untuk melakukan keputusan dan menjalankan suatu proses berdasarkan hasil dari logika perbandingan/boolean. Konsep ini dapat divisualisasikan ke dalam bentuk diagram flowchart. Diagram berikut mengilustrasikan contoh skenario untuk memutuskan apakah seseorang akan makan atau tidak.
+Conditionals adalah konsep pemrograman yang memberikan perintah kepada komputer untuk melakukan keputusan dan menjalankan suatu proses berdasarkan hasil dari logika perbandingan/boolean. Konsep ini dapat divisualisasikan ke dalam bentuk diagram flowchart. Diagram berikut mengilustrasikan contoh skenario untuk memutuskan apakah seseorang akan makan atau tidak.
 
 ```mermaid
 flowchart TD
@@ -157,9 +157,17 @@ else:
     # Kode yang dijalankan apabila tidak ada condition yang bernilai True
 ```
 
+Terakhir, kita juga bisa membuat conditional dengan satu baris kode saja (ternary). Perhatikan contoh berikut ini:
+
+```python
+money_on_wallet = 100
+price_of_bread = 99
+
+output = 'I bought the bread.' if money_on_wallet >= price_of_bread else 'I couldn\'t buy the bread.'
+
+print(output)
+# output: 'I bought the bread.'
+```
+
 > [!TIP]
-> Sebagai latihan, coba terjemahkan skenario pada contoh diagram flowchart yang paling pertama ke dalam kode Python. Kira-kira kodenya seperti apa ya?
-
-## Switch
-
-## Ternary
+> Sebagai latihan, coba terjemahkan skenario pada contoh diagram flowchart yang paling pertama ke dalam kode Python. Kira-kira kodenya akan seperti apa ya?
