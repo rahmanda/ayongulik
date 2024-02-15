@@ -128,7 +128,7 @@ flowchart TD
     D -- True --> E[Print 'I am inside a loop']
     E --> F[Decrease number_of_nested_loops by 1]
     F --> D
-    D -- False --> G[Decrease number_of_nested_loops by 1]
+    D -- False --> G[Decrease number_of_loops by 1]
     G --> B
     B -- False --> H[Done]
 ```
