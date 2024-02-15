@@ -126,9 +126,11 @@ flowchart TD
     B -- True --> C[Set number_of_nested_loops with value]
     C --> D{number_of_nested_loops > 0?}
     D -- True --> E[Print 'I am inside a loop']
-    E --> D
-    D -- False --> B
-    B -- False --> F[End]
+    E --> F[Decrease number_of_nested_loops by 1]
+    F --> D
+    D -- False --> G[Decrease number_of_nested_loops by 1]
+    G --> B
+    B -- False --> H[Done]
 ```
 *Ilustrasi diagram untuk contoh 1.c*
 
