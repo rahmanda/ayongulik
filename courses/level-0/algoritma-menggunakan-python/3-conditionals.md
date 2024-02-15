@@ -5,14 +5,14 @@ Conditionals adalah konsep pemrograman yang memberikan perintah kepada komputer 
 ```mermaid
 flowchart TD
     A[Start] --> B{Am I hungry?}
-    B -- Yes --> C{Is food exist?}
-    C -- Yes --> D[Eat]
-    B -- No --> E[Skip eating]
-    C -- No --> F[Go shopping]
+    B -- True --> C{Is food exist?}
+    C -- True --> D[Eat]
+    B -- False --> E[Skip eating]
+    C -- False --> F[Go shopping]
     F --> G{Have enough money?}
-    G -- Yes --> H[Buy food]
+    G -- True --> H[Buy food]
     H --> D
-    G -- No --> I[Can't buy food]
+    G -- False --> I[Can't buy food]
     I --> E
     E --> J[Done]
     D --> J
@@ -55,10 +55,9 @@ flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
     B -- True --> C[Pay for the bread]
     C --> D[Print 'I bought the bread...']
-    C --> E[Done]
+    D --> E[Done]
     B -- False --> F[Print 'I coudn't buy the bread ...']
     F --> E
-    D --> E
 ```
 *Ilustrasi flowchart untuk contoh 1.a*
 
