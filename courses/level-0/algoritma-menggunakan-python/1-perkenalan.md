@@ -8,7 +8,7 @@ Definisi algoritma itu banyak dan mudah saja dicari di internet. Namun pada dasa
 
 ## Mengapa belajar algoritma itu penting?
 
-Dalam implementasinya, set instruksi ini bentuknya bisa bermacam tergantung dengan bahasa pemrograman yang dipilih. Sebagai contoh, sintaks dari bahasa C akan berbeda dengan sintaks dari bahasa Python. 
+Dalam implementasinya, set instruksi ini bentuknya bisa bermacam-macam tergantung dengan bahasa pemrograman yang dipilih. Sebagai contoh, sintaks dari bahasa C akan berbeda dengan sintaks dari bahasa Python. 
 
 ```c
 // Bahasa C
