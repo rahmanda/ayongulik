@@ -1,6 +1,6 @@
 # Looping dan Debugging
 
-Looping atau perulangan adalah konsep pemrograman yang memberikan perintah kepada komputer untuk menjalankan suatu proses secara berulang-ulang selama kondisi atau kriteria yang diberikan masih valid. Pada bab ini, kita akan belajar bagaimana membuat looping pada Python dengan sintaks `while` dan `for`, pengunaan data structure pada looping, dan juga belajar bagaimana cara melakukan debugging untuk memperbaiki kode kita.
+Looping atau perulangan adalah konsep pemrograman yang memberikan perintah kepada komputer untuk menjalankan suatu proses secara berulang-ulang selama kondisi atau kriteria yang diberikan masih valid. Pada bab ini, kita akan belajar bagaimana membuat looping pada Python dengan sintaks `while` dan `for`, pengunaan data structure pada looping, dan juga belajar bagaimana cara melakukan debugging untuk mengecek kesalahan dan memperbaiki kode kita.
 
 ## While
 
@@ -32,10 +32,10 @@ Apabila kode pada contoh 1.a dijalankan, komputer akan mengeksekusi kode yang ad
 ```mermaid
 flowchart TD
     A[Start] --> B{number_of_loops > 0?}
-    B -- Yes --> C[Print 'I am inside a loop.']
+    B -- True --> C[Print 'I am inside a loop.']
     C --> D[Decrease number_of_loops by 1]
     D --> B
-    B -- No --> E[End]
+    B -- False --> E[End]
 ```
 *Ilustrasi diagram untuk contoh 1.a*
 
@@ -83,13 +83,13 @@ Apabila kode pada contoh 1.b dijalankan, program Python hanya akan mencetak stri
 ```mermaid
 flowchart TD
     A[Start] --> B{number_of_loops > 0 and stop_loop is False?}
-    B -- Yes --> C[Print 'I am inside a loop.']
+    B -- True --> C[Print 'I am inside a loop.']
     C --> D[Decrease number_of_loops by 1]
     D --> E{number_of_loops == 3}
-    E -- Yes --> F[stop_loop = True]
+    E -- True --> F[stop_loop = True]
     F --> B
-    E -- No --> B
-    B -- No --> G[End] 
+    E -- False --> B
+    B -- False --> G[End] 
 ```
 *Ilustrasi diagram untuk contoh 1.b*
 
@@ -123,12 +123,12 @@ while number_of_loops > 0:
 ```mermaid
 flowchart TD
     A[Start] --> B{number_of_loops > 0?}
-    B -- Yes --> C[Set number_of_nested_loops with value]
+    B -- True --> C[Set number_of_nested_loops with value]
     C --> D{number_of_nested_loops > 0?}
-    D -- Yes --> E[Print 'I am inside a loop']
+    D -- True --> E[Print 'I am inside a loop']
     E --> D
-    D -- No --> B
-    B -- No --> F[End]
+    D -- False --> B
+    B -- False --> F[End]
 ```
 *Ilustrasi diagram untuk contoh 1.c*
 

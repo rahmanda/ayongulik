@@ -53,10 +53,10 @@ Apabila kode pada contoh 1.a dijalankan, komputer hanya akan melakukan operasi p
 ```mermaid
 flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
-    B -- Yes --> C[Pay for the bread]
+    B -- True --> C[Pay for the bread]
     C --> D[Print 'I bought the bread...']
     C --> E[Done]
-    B -- No --> F[Print 'I coudn't buy the bread ...']
+    B -- False --> F[Print 'I coudn't buy the bread ...']
     F --> E
     D --> E
 ```
@@ -88,8 +88,8 @@ Apabila kode baru pada contoh 1.b dijalankan, komputer hanya akan melakukan oper
 ```mermaid
 flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
-    B -- Yes --> C[Pay for the bread]
-    B -- No --> G[Do nothing]
+    B -- True --> C[Pay for the bread]
+    B -- False --> G[Do nothing]
     C --> D[Print 'I bought the bread...']
     D --> E[Print 'I will buy the jam as well.']
     G --> E
@@ -130,14 +130,14 @@ else:
 ```mermaid
 flowchart TD
     A[Start] --> B{Have enough money to buy the bread?}
-    B -- Yes --> C[Pay for the bread]
+    B -- True --> C[Pay for the bread]
     C --> D[Print 'I bought the bread...']
     D --> E{Have money left?}
-    E -- Yes --> F[Print 'I will give the changes...']
-    E -- No --> G[Print 'I have no money left.']
+    E -- True --> F[Print 'I will give the changes...']
+    E -- False --> G[Print 'I have no money left.']
     F --> H[Done]
     G --> H[Done]
-    B -- No --> I[Print 'I couldn't buy the bread ...']
+    B -- False --> I[Print 'I couldn't buy the bread ...']
     I --> H
 ```
 *Ilustrasi flowchart untuk contoh 1.b*
