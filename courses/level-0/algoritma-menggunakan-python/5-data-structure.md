@@ -12,15 +12,15 @@ my_list = [1, 2, 3, 4]
 print(my_list) # output: [1, 2, 3, 4]
 ```
 
-Nilai di dalam `list` seringkali juga disebut sebagai *item*.
+Nilai di dalam `list` seringkali disebut sebagai *item*.
 
-Pada bahasa Python, kita juga dapat menggabungkan beberapa tipe data yang berbeda dalam satu `list` seperti pada contoh di bawah ini:
+Pada bahasa Python, kita dapat menggabungkan beberapa tipe data yang berbeda seperti `number`, `string`, `boolean` ke dalam satu `list`. Kita juga bisa memasukkan `list` menjadi item pada suatu `list`.
 
 ```python
-my_list = [1, '2', 3.14, False]
+my_list = [1, '2', 3.14, False, [1, 2, 3]]
 ```
 
-Untuk mengakses item di dalam `list`, kita dapat menggunakan index. Item pertama akan memiliki index 0, item kedua memiliki index 1, item ketiga memiliki index 2 dst. Sehingga secara logis, item terakhir pada `list` akan memiliki index `n - 1`, dimana `n` adalah jumlah item pada list.
+Untuk mengakses item di dalam `list`, kita dapat menggunakan index. Item pertama akan memiliki index 0, item kedua memiliki index 1, item ketiga memiliki index 2 dst. Sehingga secara logis, item terakhir pada `list` akan memiliki index `n - 1`, dimana `n` adalah jumlah item pada `list`.
 
 ```python
 my_list = [1, 2, 3, 4]
@@ -77,13 +77,15 @@ print(my_list) # output: [1, 2, 100, 4]
 Selain mengganti nilai, kita juga dapat menambahkan item pada list dan menggabungkan dua list menjadi satu.
 
 ```python
-my_list = [1, 2, 3, 4]
-my_list.append(5)
-print(my_list) # output: [1, 2, 3, 4, 5]
+my_list = []
+my_list.append(1)
+my_list.append(2)
+my_list.append(3)
+print(my_list) # output: [1, 2, 3]
 
-other_list = [6, 7, 8, 9]
+other_list = [4, 5, 6, 7]
 merged_list = my_list + other_list
-print(merged_list) # output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(merged_list) # output: [1, 2, 3, 4, 5, 6, 7]
 ```
 
 List juga dapat digabungkan menjadi satu nilai `string` menggunakan fungsi `join`. Operasi ini hanya dapat dilakukan untuk list yang semua nilai item-nya bertipe data `string`.
@@ -143,3 +145,140 @@ my_name[0] = 'B' # TypeError: 'str' object does not support item assignment
 ```
 
 ## Dictionary
+
+Dictionary atau hash map adalah data structure yang menyimpan data dengan format key-value. Berbeda dengan `list` yang akses nilai-nya melalui index yang dihasilkan secara otomatis (`0...(n-1)`), nilai pada `dictionary` diakses menggunakan key yang kita definisikan sendiri.
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+print(my_dict) # output: {'base_price': 50000, 'delivery_fee': 5000, 'discount_rate': 0.25}
+print(my_dict['base_price']) # output: 50000
+print(my_dict['base_price'] * my_dict['discount_rate']) # output: 12500
+```
+
+Kita dapat mengeset value pada `dictionary` dengan tipe data `number`, `string`, `boolean`, `list`, dan `dictionary` juga (nested) seperti pada contoh berikut:
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'can_use_discount': True,
+    'discount_rate': 0.25,
+    'payment_methods': ['atm', 'credit_card', 'digital_wallet'],
+    'payment_method_fees': {
+        'atm': {
+            'type': 'fixed',
+            'amount': 1500
+        },
+        'credit_card': {
+            'type': 'rate',
+            'amount': 0.01
+        }
+    }
+}
+```
+
+Pada umumnya, key pada `dictionary` bertipe data `string`. Namun, kita juga bisa membuat key dengan tipe data `number`. Tipe data `boolean` juga bisa digunakan sebagai key, namun penggunaannya sangat jarang.
+
+```python
+my_dict = {
+    1: 'satu',
+    2.5: 'dua koma lima',
+    3: 3,
+    False: True
+}
+print(my_dict) # output: {1: 'satu', 2: 'dua koma lima', 3: 3, False: True}
+print(my_dict[1]) # output: 'satu'
+print(my_dict[False]) # output: True
+```
+
+Key-key pada `dictionary` dipastikan unik. Apabila kita mencoba mendefinisikan dua key yang sama persis pada satu `dictionary`, Python akan hanya mengambil pasangan key-value yang terakhir.
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'base_price': 5000,
+    'discount_rate': 0.25
+}
+print(my_dict) # output: {'base_price': 5000, 'discount_rate': 0.25}
+```
+
+Untuk mendapatkan semua key pada sebuah variable `dictionary`, kita dapat menggunakan fungsi `keys`.
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+my_dict_keys = my_dict.keys()
+print(my_dict_keys) # output: dict_keys(['base_price', 'delivery_fee', 'discount_rate'])
+print(len(my_dict_keys)) # output: 3
+```
+
+### Manipulasi dictionary
+
+Seperti halnya `list`, kita juga dapat memanipulasi struktur dari `dictionary` yang kita definisikan. Pertama, kita bisa mengganti nilai atau value pada key tertentu dalam `dictionary`.
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+
+my_dict['discount_rate'] = 0.05
+
+print(my_dict) # output: {'base_price': 50000, 'delivery_fee': 5000, 'discount_rate': 0.05} 
+```
+
+Selain itu, kita juga bisa menambahkan key-value baru ke dalam `dictionary` yang telah kita definisikan seperti contoh berikut:
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+
+my_dict['payment_methods'] = ['atm', 'credit_card', 'digital_wallet']
+
+print(my_dict) # output: {'base_price': 50000, 'delivery_fee': 5000, 'discount_rate': 0.25, 'payment_methods': ['atm', 'credit_card', 'digital_wallet']}
+```
+
+Untuk menghapus key pada `dictionary`, kita dapat menggunakan fungsi `del` dan `pop`.
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+
+del my_dict['discount_rate']
+print(my_dict) # output: {'base_price': 50000, 'delivery_fee': 5000}
+
+my_dict.pop('delivery_fee', None)
+print(my_dict) # output: {'base_price': 50000}
+```
+
+Untuk menggabungkan dua `dictionary`, Python menyediakan fungsi `update` yang dapat digunakan seperti pada contoh:
+
+```python
+my_dict = {
+    'base_price': 50000,
+    'delivery_fee': 5000,
+    'discount_rate': 0.25
+}
+
+other_dict = {
+    'discount_rate': 0.05,
+    'payment_methods': ['atm', 'credit_card', 'digital_wallet'],
+}
+
+my_dict.update(other_dict)
+
+print(my_dict) # output: {'base_price': 50000, 'delivery_fee': 5000, 'discount_rate': 0.05, 'payment_methods': ['atm', 'credit_card', 'digital_wallet']}
+```
