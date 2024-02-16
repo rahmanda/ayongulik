@@ -164,7 +164,7 @@ print(will_eat) # output: True
 > print(im_cool) # output: False
 > ```
 
-Konsep `boolean` dan logika perbandingan ini akan kita temui lagi pada bab 3 'Conditionals'.
+Konsep `boolean` dan logika perbandingan ini akan kita temui lagi pada chapter 3 'Conditionals'.
 
 ### String
 
@@ -264,6 +264,6 @@ headline_title =  "Taylor Swift will release her new album \"Midnight\" next yea
 ```
 
 > [!NOTE]
-> Terminologi dalam bab ini (untuk memudahkan pencarian Google):
+> Terminologi dalam chapter ini (untuk memudahkan pencarian Google):
 > - String concatenation: penggabungan string  
 > - String formatting/interpolation: pembentukan/konstruksi string

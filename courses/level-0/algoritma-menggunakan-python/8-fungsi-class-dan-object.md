@@ -1,6 +1,6 @@
 # [IN PROGRESS] Fungsi dan Class
 
-Dua konsep yang akan di kenalkan pada bab ini digunakan untuk meningkatkan *reusability* dari kode Python. Salah satu manfaat dari implementasi konsep ini adalah kita tidak perlu melakukan duplikasi kode yang memiliki cara kerja yang identik.
+Dua konsep yang akan dikenalkan pada chapter ini digunakan untuk meningkatkan *reusability* dari kode Python. Salah satu manfaat dari implementasi konsep ini adalah kita tidak perlu melakukan duplikasi kode yang memiliki cara kerja yang identik.
 
 ## Fungsi
 
@@ -156,7 +156,7 @@ print(circle.calculate_area()) # output: 78.54
 
 Pada contoh, `class Circle` menerima parameter constructor berupa radius dan di set sebagai attribute. Class `Circle` juga memiliki method `calculate_area` untuk menghitung luas area lingkaran. Setelah object `circle_4` diinisiasi, attribute `radius` dan method `calculate_area` dapat diakses dari `object` `circle_4`. 
 
-Masih banyak lagi konsep yang berhubungan dengan class dan object. Untuk belajar lebih lanjut, silakan mengunjungi bab 'extras' (masih ditulis). 
+Masih banyak lagi konsep yang berhubungan dengan class dan object. Untuk belajar lebih lanjut, silakan mengunjungi chapter 'extras' (masih ditulis). 
 
 ---
 

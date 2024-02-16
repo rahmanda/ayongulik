@@ -1,6 +1,6 @@
 # Data Structure
 
-Selain menggunakan tipe data `number`, `string` dan `boolean`, nilai dari suatu variable dapat direpresentasikan oleh data structure. Pada bab ini, kita akan membahas dua data structure di Python yang lazim kita temui juga di bahasa pemrograman lain, yaitu `list` dan `dictionary`.
+Selain menggunakan tipe data `number`, `string` dan `boolean`, nilai dari suatu variable dapat direpresentasikan oleh data structure. Pada chapter ini, kita akan membahas dua data structure di Python yang lazim kita temui juga di bahasa pemrograman lain, yaitu `list` dan `dictionary`.
 
 ## List
 
@@ -136,7 +136,7 @@ print(fruits) # output: ['apple', 'apricot', 'cherry', 'grapes', 'strawberry']
 
 ### Hubungan antara string dan list
 
-Tipe data `string` dan data structure `list` memiliki hubungan yang dekat. Hal ini disebabkan kedua konsep tersebut memiliki sifat yang mirip. Berdasarkan penjelasan `list` di bab ini, bisa kita rangkum bahwa `list` merupakan kumpulan dari beberapa item. Sedangkan tipe data `string` pada hakikatnya juga merupakan *kumpulan dari beberapa karakter*. Sehingga, ada beberapa operasi dari `list` yang bisa kita lakukan juga pada tipe data `string`. Sebagai contoh, kita juga bisa menggunakan index untuk mengakses dan memanipulasi karakter pada `string`.
+Tipe data `string` dan data structure `list` memiliki hubungan yang dekat. Hal ini disebabkan kedua konsep tersebut memiliki sifat yang mirip. Berdasarkan penjelasan `list` di chapter ini, bisa kita rangkum bahwa `list` merupakan kumpulan dari beberapa item. Sedangkan tipe data `string` pada hakikatnya juga merupakan *kumpulan dari beberapa karakter*. Sehingga, ada beberapa operasi dari `list` yang bisa kita lakukan juga pada tipe data `string`. Sebagai contoh, kita juga bisa menggunakan index untuk mengakses dan memanipulasi karakter pada `string`.
 
 ```python
 headline_title = 'Taylor Swift will release her new album \"Midnight\" next year'

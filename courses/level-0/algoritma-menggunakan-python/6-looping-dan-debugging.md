@@ -1,6 +1,6 @@
 # Looping dan Debugging
 
-Looping atau perulangan adalah konsep pemrograman yang memberikan perintah kepada komputer untuk menjalankan suatu proses secara berulang-ulang selama kondisi atau kriteria yang diberikan masih valid. Pada bab ini, kita akan belajar bagaimana membuat looping pada Python dengan sintaks `while` dan `for`, dan juga belajar bagaimana cara melakukan debugging untuk mengecek kesalahan dan memperbaiki kode kita.
+Looping atau perulangan adalah konsep pemrograman yang memberikan perintah kepada komputer untuk menjalankan suatu proses secara berulang-ulang selama kondisi atau kriteria yang diberikan masih valid. Pada chapter ini, kita akan belajar bagaimana membuat looping pada Python dengan sintaks `while` dan `for`, dan juga belajar bagaimana cara melakukan debugging untuk mengecek kesalahan dan memperbaiki kode kita.
 
 ## While
 
