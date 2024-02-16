@@ -167,7 +167,7 @@ Algoritma `for` akan mengunjungi satu per satu item yang terdapat pada `list` mu
 ```mermaid
 flowchart TD
     A[Start] --> B{Is there any fruit next?}
-    B -- Yes --> C[Print 'I like {next fruit}.']
+    B -- Yes --> C[Print 'I like <next fruit>.']
     C --> B
     B -- No --> D[Done]
 ```
