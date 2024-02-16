@@ -62,8 +62,8 @@ Untuk mengetes apakah instalasi program Python kalian sukses, ikuti langkah-lang
 > 1. Program Python perlu diinstal pada komputer kita agar skrip Python kita bisa dijalankan atau dieksekusi. Hal ini umumnya berlaku pada bahasa pemrograman lain seperti C, C++, R, Ruby, Erlang dsb. Yang membedakan biasanya hanya pada cara instalasinya saja. 
 > 2. Setelah menginstal program Python, kita dapat menjalankan perintah `py` atau `python` pada terminal. Ini juga umumnya berlaku pada bahasa pemrograman lain, dan biasanya cara menjalankan skripnya sama, yaitu dengan menjalankan perintah dengan pola `<nama-command> <nama-file>.<ekstensi>`.
 
-## Text Editor
+## Text Editor dan IDE
 
-Setelah menginstal program Python, kita juga membutuhkan sebuah aplikasi text editor untuk menulis kode. Sebenarnya text editor yang sederhana seperti Notepad atau TextEdit itu sudah cukup karena toh nantinya kita juga akan mengeksekusinya secara terpisah lewat terminal. Namun, text editor yang mumpuni bisa membantu kita untuk menulis kode dengan lebih baik dan cepat.
+Untuk memulai menulis kode Python, kita juga membutuhkan sebuah aplikasi text editor untuk menulis kode. Sebenarnya text editor yang sederhana seperti Notepad atau TextEdit itu sudah cukup karena toh nantinya kita juga akan mengeksekusinya secara terpisah lewat terminal. Namun, text editor yang mumpuni seperti IDE (Integrated Development Environment) bisa membantu kita untuk menulis kode dengan lebih baik dan cepat.
 
-Ada banyak text editor bagus yang bisa kamu pakai. Tetapi untuk course ini, kami merekomendasikan [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/) karena di dalamnya sudah terdapat fitur syntax dan error highlighting plus fitur autocomplete tanpa perlu melakukan banyak konfigurasi tambahan.
+Ada banyak IDE bagus yang bisa kamu pakai. Tetapi untuk course ini, kami merekomendasikan [Spyder](https://www.spyder-ide.org/) karena di dalamnya sudah terinstal program Python dan memiliki fitur-fitur yang lengkap seperti syntax checking, error highlighting serta autocomplete.
