@@ -121,7 +121,7 @@ print(total_purchase >= 999) # output: False
 print(total_purchase >= 1000) # output: True
 ```
 
-Selain yang telah disebutkan, logika perbandingan juga memiliki operator lain seperti `and` dan `or`. Penggunaan operator tersebut bisa dilihat pada contoh berikut ini:
+Selain yang telah disebutkan, logika perbandingan juga memiliki operator lain seperti `and` and `or`. Penggunaan operator tersebut bisa dilihat pada contoh berikut ini:
 
 ```python
 print(True and True) # output: True
@@ -150,6 +150,19 @@ print(will_eat) # output: False
 will_eat = are_you_hungry or can_buy_food 
 print(will_eat) # output: True
 ```
+
+> [!TIP]
+> Tipe data `boolean` juga memiliki operator negasi (`not`). Contoh pemakaiannya adalah sebagai berikut:
+> ```python
+> have_money = True
+> charming = True
+>
+> im_cool = have_money and charming
+> print(im_cool) # output: True
+> 
+> im_cool = have_money and not charming
+> print(im_cool) # output: False
+> ```
 
 Konsep `boolean` dan logika perbandingan ini akan kita temui lagi pada bab 3 'Conditionals'.
 
