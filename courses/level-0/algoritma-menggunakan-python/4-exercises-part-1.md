@@ -68,7 +68,7 @@ Jika kriteria nomor 1 dan 2 terpenuhi namun ada salah satu dari kriteria 3 dan 4
 
 Buatlah kode untuk menentukan apakah seseorang dapat menghadiri ulang tahun Neilshan atau tidak. Print string 'Diterima!' apabila Neilshan menerima tamunya, dan print string 'Ditolak~' apabila Neilshan menolak tamunya.
 
-Gunakan template ini untuk mengerjakan soal. Semua nilai kriteria yang dibutuhkan di ambil dari parameter pada fungsi `main`.
+Gunakan template ini untuk mengerjakan soal. Semua nilai kriteria yang dibutuhkan diambil dari parameter pada fungsi `main`.
 
 ```python
 def main(formal, rsvp, number_of_friends, gift_price, almamater):
