@@ -18,4 +18,4 @@ Nah, berikut adalah daftar courses yang tersedia di repositori ini:
 Bagi teman-teman yang belum familiar dengan pemrograman, sangat direkomendasikan untuk memulai dari level 0.
 
 > [!NOTE]
-> Pada tiap course, terdapat exercise yang bisa teman-teman pakai untuk berlatih secara mandiri. Apabila kesulitan, repositori ini juga menyediakan kunci jawaban pada folder `solutions`. Namun, sebisa mungkin teman-teman usaha sendiri dulu ya sebelum melihat solusinya. Karena proses belajar dan ngulik sendiri-nya itulah yang akan membuat teman-teman lebih cepat mahir.
+> Pada tiap course, terdapat exercise yang bisa teman-teman pakai untuk berlatih secara mandiri. Apabila kesulitan, repositori ini juga menyediakan kunci jawaban pada folder `solutions (ON DEVELOPMENT)`. Namun, sebisa mungkin teman-teman usaha sendiri dulu ya sebelum melihat solusinya. Karena proses belajar dan ngulik sendiri-nya itulah yang akan membuat teman-teman lebih cepat mahir.
