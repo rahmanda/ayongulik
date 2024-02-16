@@ -227,7 +227,7 @@ bucket_of_words = [
 ]
 
 for words in bucket_of_words:
-    sentence = ""
+    sentence = ''
     for word in words:
         sentence = sentence + word + ' '
     print(sentence)
