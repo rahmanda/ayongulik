@@ -66,4 +66,4 @@ Untuk mengetes apakah instalasi program Python kalian sukses, ikuti langkah-lang
 
 Setelah menginstal program Python, kita juga membutuhkan sebuah aplikasi text editor untuk menulis kode. Sebenarnya text editor yang sederhana seperti Notepad atau TextEdit itu sudah cukup karena toh nantinya kita juga akan mengeksekusinya secara terpisah lewat terminal. Namun, text editor yang mumpuni bisa membantu kita untuk menulis kode dengan lebih baik dan cepat.
 
-Ada banyak text editor bagus yang bisa kamu pakai. Tetapi untuk course ini, kami merekomendasikan [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/) karena di dalamnya sudah terdapat fitur syntax dan error highlighting dan autocomplete tanpa perlu melakukan banyak konfigurasi tambahan.
+Ada banyak text editor bagus yang bisa kamu pakai. Tetapi untuk course ini, kami merekomendasikan [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/) karena di dalamnya sudah terdapat fitur syntax dan error highlighting plus fitur autocomplete tanpa perlu melakukan banyak konfigurasi tambahan.
