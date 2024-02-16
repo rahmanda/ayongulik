@@ -239,4 +239,66 @@ for words in bucket_of_words:
 
 ## Debugging
 
-TBA
+Debugging adalah proses mencari error dan memperbaiki kode agar dapat berjalan dengan semestinya. Kemampuan debugging bagi seorang programer itu penting. Hal ini karena seiring berjalannya waktu, kita akan berhadapan dengan kode yang semakin rumit dan kompleks yang lebih beresiko menimbulkan error atau output yang salah.
+
+Untuk melakukan debugging, kita perlu menganalisis bagaimana proses eksekusi tiap baris kode kita dari awal sampai akhir. Pahami konsep-konsep yang sudah kita pelajari sampai saat ini: tipe data (`number`, `string`, dan `boolean`), `if...else`, dan data structure (`list` dan `dictionary`), lalu coba memvisualisasikan bagaimana kode kita menghasilkan output dari input dan data yang kita sediakan.
+
+Untuk mempermudah kita melakukan debugging, kita bisa memanfaatkan fungsi `print` pada Python. Perhatikan contoh kode berikut ini: 
+
+```python
+# Contoh 3.a
+bucket_of_words = [
+    ['I', 'like', 'learning', 'new', 'stuffs'],
+    ['However,', 'it', 'is', 'not', 'always', 'easy'],
+    ['I', 'believe', 'if', 'I', 'consistently', 'practice,', 'I', 'can', 'get', 'a', 'valuable', 'skill', 'faster']
+]
+found_words = []
+
+for words in bucket_of_words:
+    found = False
+    index = 0
+    while not found:
+        word = words[index]    
+        if word[0] == 'I' or word[0] == 'i':
+            found_words.append(word)
+            found = True
+        index = index + 1
+
+print(found_words)
+```
+
+Kode pada Contoh 3.a bisa dibilang cukup rumit karena sudah melibatkan nested loop, conditional, manipulasi data structure, pembuatan banyak variable dan juga modifikasi nilai dari variable. Fungsi `print` dapat ditambahkan pada kode ini untuk bisa memperjelas cara kerja dari kode ini. Salah satu contoh implementasinya adalah seperti berikut.
+
+```python
+# Contoh 3.b
+bucket_of_words = [
+    ['I', 'like', 'learning', 'new', 'stuffs'],
+    ['However,', 'it', 'is', 'not', 'always', 'easy'],
+    ['I', 'believe', 'if', 'I', 'consistently', 'practice,', 'I', 'can', 'get', 'a', 'valuable', 'skill', 'faster']
+]
+found_words = []
+
+for words in bucket_of_words:
+    found = False
+    index = 0
+
+    print(f'Found is {found} and index is {index}.')
+
+    while not found:
+        word = words[index]
+
+        print(f'Current word is {word}.')
+
+        if word[0] == 'I' or word[0] == 'i':
+            found_words.append(word)
+            found = True
+        index = index + 1
+
+        print(found_words)
+
+print(found_words)
+```
+
+Pada Contoh 3.b, kita menaruh tiga pemanggilan fungsi `print` dengan posisi yang berbeda-beda. Penempatan fungsi `print` ini kurang lebih ditentukan oleh dimana kira-kira point of interests yang ingin kita perhatikan. Dalam kasus ini, kita ingin memantau nilai dari variable `found`, `index`, `word` dan `found_words`. Apabila kode yang baru ini dijalankan, kita bisa melihat perubahan nilai dari variable yang kita cetak menggunakan fungsi `print`.
+
+Selain dengan memanfaatkan fungsi `print`, kita juga bisa menggunakan fitur breakpoint pada IDE yang kita pakai. Biasanya breakpoint ini bisa kita aktifkan dengan melakukan klik pada bagian line numbers. Apabila kita menjalankan kode yang sudah ditandai oleh breakpoint, IDE akan menghentikan sementara program kita pada baris kode yang breakpoint-nya aktif. Selagi program kita terhenti, kita bisa mengecek nilai dari variable-variable yang sudah tereksekusi untuk memastikan apakah algoritma yang dibuat sudah sesuai atau tidak dengan rancangan kita.
