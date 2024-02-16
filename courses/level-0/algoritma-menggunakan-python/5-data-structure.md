@@ -63,6 +63,13 @@ print(list_length) # output: 4
 print(my_list[list_length - 1]) # output: 4
 ```
 
+> [!TIP]
+> Apabila kamu perlu membuat `list` dengan item `number` yang berurutan dalam rentang tertentu secara cepat, kamu bisa memakai fungsi `range`.
+> ```python
+> my_list = list(range(0, 5))
+> print(my_list) # [0, 1, 2, 3, 4]
+> ```
+
 ### Manipulasi list
 
 Struktur dan isi item dari suatu `list` dapat kita manipulasi sesuai dengan keinginan. Salah satu contohnya, kita dapat mengganti nilai item pada suatu `list` dengan memanfaatkan index seperti pada contoh berikut:
