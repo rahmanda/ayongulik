@@ -1,4 +1,4 @@
-# [IN PROGRESS] Fungsi dan Class
+# [IN PROGRESS] Perkenalan Fungsi, Class dan Object
 
 Dua konsep yang akan dikenalkan pada chapter ini digunakan untuk meningkatkan *reusability* dari kode Python. Salah satu manfaat dari implementasi konsep ini adalah kita tidak perlu melakukan duplikasi kode yang memiliki cara kerja yang identik.
 
