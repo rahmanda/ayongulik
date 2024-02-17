@@ -127,5 +127,5 @@ Input:
 True True 5 200 'Unpar'
 
 Output:
-'Ditolak~'
+'Diterima!'
 ```
