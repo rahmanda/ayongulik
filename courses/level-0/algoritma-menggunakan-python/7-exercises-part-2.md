@@ -4,8 +4,6 @@ Selamat datang di chapter 'Exercises - Part 2'! Pada exercises ini, kamu akan di
 
 Selamat berlatih!
 
----
-
 ## Q1
 
 Buatlah kode Python yang dapat mencetak pola segitiga siku-siku menggunakan simbol `*`:
