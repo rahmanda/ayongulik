@@ -13,7 +13,7 @@ Seseorang akan lulus mata kuliah di UHasselt apabila:
 
 Buatlah kode untuk menentukan apakah seseorang akan lulus ujian mata kuliah di UHasselt berdasarkan nilai yang diperoleh. Print string 'Lulus!' apabila sesuai dengan kriteria lulus, dan print string 'Tidak lulus~' apabila sebaliknya.
 
-Gunakan template ini untuk mengerjakan soal. Nilai ujian (`number`) dan toleransi (`boolean`) diambil dari parameter pada fungsi `main`.
+Buat file baru bernama `exercise_part1_Q1.py` dan gunakan template ini untuk mengerjakan soal. Nilai ujian (`number`) dan toleransi (`boolean`) diambil dari parameter pada fungsi `main`.
 
 ```python
 def main(score, tolerable):
@@ -68,7 +68,7 @@ Jika kriteria nomor 1 dan 2 terpenuhi namun ada salah satu dari kriteria 3 dan 4
 
 Buatlah kode untuk menentukan apakah seseorang dapat menghadiri ulang tahun Neilshan atau tidak. Print string 'Diterima!' apabila Neilshan menerima tamunya, dan print string 'Ditolak~' apabila Neilshan menolak tamunya.
 
-Gunakan template ini untuk mengerjakan soal. Semua nilai kriteria yang dibutuhkan diambil dari parameter pada fungsi `main`.
+Buat file baru bernama `exercise_part1_Q2.py` dan gunakan template ini untuk mengerjakan soal. Semua nilai kriteria yang dibutuhkan diambil dari parameter pada fungsi `main`.
 
 ```python
 def main(formal, rsvp, number_of_friends, gift_price, almamater):

@@ -99,7 +99,7 @@ data = [
 
 Buatlah fungsi `get_product_by_category` untuk memfilter data berdasarkan nilai `category`. Fungsi ini menerima dua parameter: `data_source` (list dictionary) dan `category_name` (`string`), dan mengembalikan data dengan format yang sama dengan data-nya:
 
-Gunakan template ini untuk mengerjakan soal.
+Buat file baru bernama `exercise_part3_Q11.py` dan gunakan template ini untuk mengerjakan soal.
 
 ```python
 def get_product_by_category(data, category_name):
@@ -122,7 +122,7 @@ output = sort_product(data, 'category', 'desc')
 output = sort_product(data, 'sold', 'desc')
 ```
 
-Gunakan template ini untuk mengerjakan soal.
+Buat file baru bernama `exercise_part3_Q12.py` dan gunakan template ini untuk mengerjakan soal.
 
 ```python
 def sort_product(data, key, direction):
@@ -170,4 +170,17 @@ some_data = [
 ]
 print(get_sum(some_data, 'price')) # Output: 129.9
 print(get_sum(some_data, 'sold')) # OUtput: 152
+```
+
+Buat file baru bernama `exercise_part3_Q13.py` dan gunakan template ini untuk mengerjakan soal.
+
+```python
+def get_sum(data_source, key):
+    # tulis kode kamu disini
+    return
+
+
+if __name__ == '__main__':
+    # copy data dari deskripsi di Q1
+    print(get_sum(data_source, 'price'))
 ```

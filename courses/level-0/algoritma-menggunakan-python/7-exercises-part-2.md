@@ -19,7 +19,7 @@ Buatlah kode Python yang dapat mencetak pola segitiga siku-siku menggunakan simb
 ******
 ```
 
-Gunakan template ini untuk mengerjakan soal.
+Buat file baru bernama `exercise_part2_Q1.py` dan gunakan template ini untuk mengerjakan soal.
 
 ```python
 def main(lines):
@@ -66,7 +66,7 @@ Buatlah kode Python yang dapat mencetak pola segitiga menggunakan simbol `*`:
 *******
 ```
 
-Gunakan template ini untuk mengerjakan soal.
+Buat file baru bernama `exercise_part2_Q2.py` dan gunakan template ini untuk mengerjakan soal.
 
 ```python
 def main(lines):
