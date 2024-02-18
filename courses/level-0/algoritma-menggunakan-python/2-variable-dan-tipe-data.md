@@ -24,6 +24,13 @@ total_purchase = 999
 print(total_purchase) # output: 999
 ```
 
+> [!NOTE]
+> Simbol `#` digunakan untuk membuat komentar/catatan pada kode Python kita:
+> ```python
+> # Semua catatan dimulai dengan menggunakan simbol '#'
+> total_purchase = 1000 # komentar terkait kode ini
+> ```
+
 ## Tipe Data
 
 Setiap value (atau data) yang kita set ke sebuah variable memiliki tipe data. Ada beberapa macam tipe data utama yang selalu ada pada bahasa pemrograman, yaitu:
