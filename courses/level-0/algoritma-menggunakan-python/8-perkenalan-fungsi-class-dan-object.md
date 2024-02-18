@@ -1,10 +1,10 @@
-# [IN PROGRESS] Perkenalan Fungsi, Class dan Object
+# Perkenalan Fungsi, Class dan Object
 
 Dua konsep yang akan dikenalkan pada chapter ini digunakan untuk meningkatkan *reusability* dari kode Python. Salah satu manfaat dari implementasi konsep ini adalah kita tidak perlu melakukan duplikasi kode yang memiliki cara kerja yang identik.
 
 ## Fungsi
 
-Fungsi atau function adalah salah satu konsep algoritma untuk membungkus kode menjadi sehingga bisa dipakai kembali di tempat lain. Cara mendefinisikan suatu fungsi di Python adalah dengan menggunakan kata kunci `def`. Berikut adalah sintaks dasar dari fungsi:\
+Fungsi atau function adalah salah satu konsep algoritma untuk membungkus kode menjadi sehingga bisa dipakai kembali di tempat lain. Cara mendefinisikan suatu fungsi di Python adalah dengan menggunakan kata kunci `def`. Berikut adalah sintaks dasar dari fungsi:
 
 ```python
 def nama_fungsi(parameter_1, parameter_2, ...):
@@ -156,7 +156,7 @@ print(circle.calculate_area()) # output: 78.54
 
 Pada contoh, `class Circle` menerima parameter constructor berupa radius dan di set sebagai attribute. Class `Circle` juga memiliki method `calculate_area` untuk menghitung luas area lingkaran. Setelah object `circle_4` diinisiasi, attribute `radius` dan method `calculate_area` dapat diakses dari `object` `circle_4`. 
 
-Masih banyak lagi konsep yang berhubungan dengan class dan object. Untuk belajar lebih lanjut, silakan mengunjungi chapter 'extras' (masih ditulis). 
+Masih banyak lagi konsep yang berhubungan dengan class dan object. Untuk belajar lebih lanjut, silakan mengunjungi chapter 'extras' (tunggu update terbaru!). 
 
 ---
 
