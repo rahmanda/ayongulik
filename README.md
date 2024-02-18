@@ -10,7 +10,7 @@ Tiap courses memiliki level yang berbeda-beda. Semakin tinggi levelnya, maka sem
 
 Nah, berikut adalah daftar courses yang tersedia di repositori ini:
 
-- Level 0 - [ON DEVELOPMENT] [Algoritma menggunakan Python](https://github.com/rahmanda/ayongulik/tree/main/courses/level-0/algoritma-menggunakan-python)
+- Level 0 - [Algoritma menggunakan Python](https://github.com/rahmanda/ayongulik/tree/main/courses/level-0/algoritma-menggunakan-python)
 - Level 1 - [TBA] Intermediate Python - version manager, penggunaan modules dan external library, I/O, Pandas
 - Level 1 - [TBA] Relational Database & SQL
 - Level 2 - [TBA] Data Analisis menggunakan Python
