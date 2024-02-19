@@ -4,7 +4,9 @@ Dua konsep yang akan dikenalkan pada chapter ini digunakan untuk meningkatkan *r
 
 ## Fungsi
 
-Fungsi atau function adalah salah satu konsep algoritma untuk membungkus kode menjadi sehingga bisa dipakai kembali di tempat lain. Apabila kalian sudah mengerjakan exercise pada course ini, kalian seharusnya sudah cukup familiar dengan pembuatan fungsi `main` dan cara pemanggilannya. Karakteristik dari sintaks Python adalah menggunakan kata kunci `def`. Berikut adalah sintaks dasar dari fungsi:
+Apabila kalian sudah mengerjakan exercise pada course ini, kalian seharusnya sudah cukup familiar dengan pembuatan fungsi `main` dan cara pemanggilannya. Secara umum, fungsi atau function digunakan untuk membungkus kumpulan kode sedemikian sehingga bisa dipakai kembali di tempat lain. 
+
+Karakteristik dari sintaks Python adalah menggunakan kata kunci `def`. Berikut adalah sintaks dasar dari fungsi:
 
 ```python
 def nama_fungsi(parameter_1, parameter_2, ...):
